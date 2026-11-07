@@ -43,9 +43,9 @@ describe("degenerate elliptical arcs (rx=0 or ry=0) (#35)", () => {
 
     expect(shapes).toHaveLength(1)
     expect(shapes[0]?.outer_ring.vertices).toEqual([
-      { x: -5, y: 5 },
-      { x: 5, y: 5 },
       { x: 5, y: -5 },
+      { x: 5, y: 5 },
+      { x: -5, y: 5 },
     ])
   })
 })
